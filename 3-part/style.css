@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.quiz-container {
+  border: 2px solid red;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.question {
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+}
+.option {
+  cursor: pointer;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
